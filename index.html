@@ -41,34 +41,33 @@
 				</ul>
 		</div>
 </nav>
-		
-	</nav>
 
-	<section id="landing">
-		<div class="container-fluid">
-			<div class="row justify-content-center align-items-center p-3 vh-100">
-				<div class="col-sm-7 py-5 d-lg-none">
-					<img src="./images/myPhoto.jpg" class="rounded-circle border border-dark img-fluid">
-				</div>
-				<div class="col-lg-7 col-sm-10 px-5">
-					<h2 id="myName"class="text-center text-lg-left">Hi, I'm Louisse Lynn Berbo</h2>
-					<h4></h4>
-					<p id="text" class="text-justify pt-2 pb-5">
-	          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-				</div>
-				<div class="col-lg-4 col-sm-10 py-5 d-none d-lg-block">
-					<img src="./images/myPhoto.jpg" class="rounded-circle border border-dark img-fluid">
-				</div>
+<!-- Home -->
+<section id="landing">
+	<div class="container-fluid">
+		<div class="row justify-content-center align-items-center p-3 vh-100">
+			<div class="col-sm-7 py-5 d-lg-none">
+				<img src="./images/myPhoto.jpg" class="rounded-circle border border-dark img-fluid">
+			</div>
+			<div class="col-lg-7 col-sm-10 px-5">
+				<h2 id="myName"class="text-center text-lg-left">Hi, I'm Louisse Lynn Berbo</h2>
+				<h4 id="text">Full Stack Developer</h4>
+				<p id="text" class="text-justify pb-5">
+          <strong>In the Berbz</strong> was inspired and created by Louisse Lynn berbo. A 27-year-old developer whose goal is to help business and individuals reach multitude of people by creating a website suited to their needs.
+        </p>
+			</div>
+			<div class="col-lg-4 col-sm-10 py-5 d-none d-lg-block">
+				<img src="./images/myPhoto.jpg" class="rounded-circle border border-dark img-fluid">
 			</div>
 		</div>
-	</section>
+	</div>
+</section>
 
 
-
-<section id="projects" class="container pb-5">
-	<h2 id="header" class="text-center p-3">My Projects</h2>	
-	<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+<!-- Projects -->
+<section id="projects" class="container-fluid bg-light pb-5">
+	<h1 id="header" class="text-center p-3">My Projects</h1>	
+	<div id="carouselExampleCaptions" class="mx-5 carousel slide" data-ride="carousel">
 	  <ol class="carousel-indicators">
 	    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
 	    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -108,42 +107,96 @@
 	</div>
 </section>
 
-<section id="tools" class="container-fluid bg-secondary">
-	<div class="row justify-content-center align-items-center py-5">
-		<h2 class="col-10 text-center">Tools</h2>
-		<div>
-			<img src="./images/html.png" class="col-4 col-sm-6 text-center">
+<!-- Tools -->
+<section id="tools" class="container-fluid ">
+	<div class="row justify-content-center pt-3 pb-4 text-center">
+		<div class="col-10">
+			<h1 id="header">Tools</h1>
 		</div>
 		<div>
-			<img src="./images/css.png" class="col-4 col-sm-6 text-center">
+			<img src="./images/html1.png" class="col-4 col-sm-6">
 		</div>
 		<div>
-			<img src="./images/bootstrap.png" class="col-4 col-sm-6 text-center">
+			<img src="./images/css1.png" class="col-4 col-sm-6">
+		</div>
+		<div>
+			<img src="./images/bootstrap.png" class="col-4 col-sm-6">
 		</div>
 	</div>
 </section>
 
-<section>
-	<div class="modal" tabindex="-1">
+<!-- Contact -->
+<section id="contact" class="container-fluid bg-light pt-3">
+	<div class="text-center">
+		<h1 id="header">Contact</h1>		
+	</div>
+	<div class="row px-md-3">
+     <div class="col-md-6 my-4">
+        <h4 id="header" class="text-center my-4">Message Us</h4>
+        <form>
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" class="form-control" fdprocessedid="gdt14n">
+            <div data-lastpass-icon-root="true" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"></div></div>
+            <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" class="form-control" fdprocessedid="1xlz5w">
+            </div>
+            <div class="form-group">
+                <label>Message</label>
+                <textarea class="form-control"></textarea>
+            </div>
+            <button type="submit" class="btn btn-outline-dark btn-block" data-toggle="modal" data-target="#contactModal">Send</button>
+        </form>
+    </div>
+    <div class="col-md-6 my-4">
+        <h4 id="header" class="text-center my-4">Visit Us</h4>
+        	<div id="icons" class="text-center justify-content-center align-items-center">
+                <div class="col-2">
+                    <a href="https://m.me/lberbo" class="text-dark" id="facebook">
+                        <img src="./images/fb.png" class="d-inline p-2 h-75 w-75">
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="https://www.linkedin.com/in/louisselynn" class="text-dark" id="linkedIn">
+                        <img src="./images/linkedin.png" class="d-inline p-2 h-75 w-75">
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="https://github.com/louisselynn" class="text-dark" id="github">
+                        <img src="./images/github.png" class="d-inline p-2 h-75 w-75">                    
+                    </a>
+                </div>
+            </div>
+
+</div>
+	<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModal" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
+        <h5 class="modal-title" id="contactModal">Message Sent</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <p>Modal body text goes here.</p>
+        <h6>Thank you for contacting us!</h6>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
 </div>
 </section>
+
+<footer>
+	<footer class="mt-5 p-3 bg-dark text-light">
+            <h6 id="text" class="text-center">Louisse Lynn Berbo</h6>
+            <p id="text" class="text-center mb-1">Full Stack Web Developer</p>
+            <p id="text" class="text-center">© All Rights Reserved 2023</p>
+        </footer>
+</footer>
 
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
