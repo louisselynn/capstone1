@@ -20,12 +20,13 @@
 	font-family: 'Dosis', sans-serif;
 }
 
-#text {
+#description {
 	font-family: 'Dosis', sans-serif;
 	font-size: 1.2em;
+	background-color: rgba(240, 240, 240, 0.6);
+	background-position: center	center;
 }
 
 #footer {
 	font-family: 'Mukta', sans-serif;
 }
-
