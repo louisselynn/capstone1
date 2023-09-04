@@ -13,6 +13,7 @@
 
 #myName {
 	font-family: 'Dosis', sans-serif;
+	font-size: 3rem;
 }
 
 #header {
@@ -21,5 +22,10 @@
 
 #text {
 	font-family: 'Dosis', sans-serif;
+	font-size: 1.2em;
+}
+
+#footer {
+	font-family: 'Mukta', sans-serif;
 }
 
