@@ -1,0 +1,25 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+#landing {
+	background-image: url('./images/bg.jpg');
+	background-size: 1920px 870px;
+	background-position: center center;
+}
+
+#myName {
+	font-family: 'Dosis', sans-serif;
+}
+
+#header {
+	font-family: 'Dosis', sans-serif;
+}
+
+#text {
+	font-family: 'Dosis', sans-serif;
+}
+
