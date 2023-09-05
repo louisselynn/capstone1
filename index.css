@@ -30,3 +30,14 @@
 #footer {
 	font-family: 'Mukta', sans-serif;
 }
+
+#data {
+	style="position: relative !important; 
+	height: 0px !important; 
+	width: 0px !important; 
+	float: left !important;
+}
+
+#projects {
+	background-color: rgba(255, 154, 66, 0.2);
+}
